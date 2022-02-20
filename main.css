@@ -1,4 +1,4 @@
-/* * {
+ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,7 +6,7 @@
 
 body {
   font-family: 'montserrat', sans-serif;
-  background-image: url('bg.jpg');
+  background-image: url('weather.gif');
   background-size: cover;
   background-position: top center;
 }
@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+  background-image: linear-gradient(to bottom, rgba(37, 29, 29, 0.3), rgba(0, 0, 0, 0.6));
 }
 
 header {
@@ -31,11 +31,10 @@ header input {
   padding: 10px 15px;
   border: none;
   outline: none;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(240, 216, 216, 0.3);
   border-radius: 16px 0px 16px 0px;
-  border-bottom: 3px solid #DF8E00;
-  
-  color: #313131;
+  border-bottom: 3px solid #292725;
+  color: #ece2e2dc;
   font-size: 20px;
   font-weight: 300;
   transition: 0.2s ease-out;
@@ -55,15 +54,18 @@ main {
 }
 
 .location .city {
-  color: #FFF;
+  color: rgb(241, 241, 241);
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 1000;
   margin-bottom: 5px;
+  text-shadow: 0px 3px rgba(78, 77, 77, 0.3);
 }
 
 .location .date {
-  color: #FFF;
-  font-size: 16px;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  font-size: 25px;
+  text-shadow: 0px 2px rgba(0, 0, 0, 0.4);
 }
 
 .current .temp {
@@ -87,9 +89,9 @@ main {
   text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
 }
 
-.current .hi-low {
+.current .low_high {
   color: #FFF;
   font-size: 24px;
   font-weight: 500;
   text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
-} */
+} 
